@@ -25,7 +25,18 @@ const Index = () => {
         <Text fontSize="4xl" fontWeight="bold">
           Welcome to Our Website!
         </Text>
-        <Text mt={2}>This is a simple page built with React and Chakra UI.</Text>
+        <Text mt={2}>Explore the intriguing world of cybersecurity and hacking.</Text>
+        <VStack spacing={4} mt={4}>
+          <Text fontSize="xl" fontWeight="bold">
+            Latest Hacking Trends
+          </Text>
+          <Text fontSize="xl" fontWeight="bold">
+            Cybersecurity Best Practices
+          </Text>
+          <Text fontSize="xl" fontWeight="bold">
+            Famous Hackers and Their Impact
+          </Text>
+        </VStack>
         <Image src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxoYWNrZXJ8ZW58MHx8fHwxNzEzNDY1NTE0fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Hackers Theme" mt={4} boxSize="300px" />
       </Flex>
 
