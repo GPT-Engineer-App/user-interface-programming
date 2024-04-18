@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <VStack minH="100vh">
       {/* Navigation Bar */}
-      <Flex as="nav" w="full" bg="blue.500" color="white" p={4} align="center">
+      <Flex as="nav" w="full" bg="brand.900" color="black" p={4} align="center">
         <HStack spacing={4}>
           <FaHome />
           <Text>Home</Text>
@@ -15,7 +15,7 @@ const Index = () => {
           <Text>Contact</Text>
         </HStack>
         <Spacer />
-        <Button colorScheme="blue" variant="outline">
+        <Button colorScheme="gray" variant="solid">
           Login
         </Button>
       </Flex>
@@ -41,7 +41,7 @@ const Index = () => {
       </Flex>
 
       {/* Footer */}
-      <Box as="footer" w="full" bg="gray.200" p={4}>
+      <Box as="footer" w="full" bg="brand.800" p={4}>
         <Text textAlign="center">© 2023 Company Name. All rights reserved.</Text>
       </Box>
     </VStack>
